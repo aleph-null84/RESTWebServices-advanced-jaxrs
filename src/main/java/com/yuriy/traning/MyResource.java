@@ -9,8 +9,7 @@ import javax.ws.rs.core.MediaType;
 @Path("test")
 @Singleton
 public class MyResource {
-	
-	
+
 	private int count;
 
 	@GET
@@ -19,5 +18,5 @@ public class MyResource {
 		count = count + 1;
 		return "It works! This method was called " + count + " time(s)";
 	}
-	
+
 }
