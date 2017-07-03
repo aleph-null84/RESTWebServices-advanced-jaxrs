@@ -10,6 +10,7 @@ import javax.ws.rs.core.MediaType;
 @Singleton
 public class MyResource {
 	
+	
 	private int count;
 
 	@GET
