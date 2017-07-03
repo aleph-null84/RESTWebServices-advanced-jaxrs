@@ -1,3 +1,3 @@
-# RESTWebServices-advanced-jaxrs-01
+# RESTWebServices-advanced-jaxrs
 
 Lessons https://javabrains.io/courses/javaee_advjaxrs
