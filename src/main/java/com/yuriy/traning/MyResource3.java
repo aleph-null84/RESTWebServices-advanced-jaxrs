@@ -19,7 +19,7 @@ public class MyResource3 {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String testMethod() {
-		return "It works! Path param used " + pathParamExample + " and Query param used " + queryParamExample;
+		return "It works! \nPath param used " + pathParamExample + " \nand Query param used " + queryParamExample;
 	}
 
 }
