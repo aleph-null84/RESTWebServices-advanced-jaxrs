@@ -1,4 +1,4 @@
-package com.yuriy.traning.lesson04;
+package com.yuriy.traning.example04;
 
 public class MyDate {
 
