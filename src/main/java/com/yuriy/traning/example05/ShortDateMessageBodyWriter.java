@@ -32,6 +32,7 @@ public class ShortDateMessageBodyWriter implements MessageBodyWriter<Date> {
 	public void writeTo(Date date, Class<?> type, Type type1, Annotation[] antns, MediaType mt,
 			MultivaluedMap<String, Object> mm, OutputStream out) throws IOException, WebApplicationException {
 
+		@SuppressWarnings("deprecation")
 		String shortDate = date.getDate() + "-" + date.getMonth() + "-" + date.getYear();
 		out.write(shortDate.getBytes());
 
