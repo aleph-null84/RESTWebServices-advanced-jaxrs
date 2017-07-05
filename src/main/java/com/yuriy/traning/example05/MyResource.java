@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 public class MyResource {
 
 	@GET
-	@Produces(MediaType.TEXT_PLAIN)
+	@Produces("text/shortdate")
 	public Date testMethod() {
 		return Calendar.getInstance().getTime();
 	}
