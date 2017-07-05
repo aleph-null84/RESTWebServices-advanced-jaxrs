@@ -9,7 +9,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("test05")
-public class MyResource {
+public class MyResource05 {
 
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
